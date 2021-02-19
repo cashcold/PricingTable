@@ -1,0 +1,120 @@
+.title{
+    font-size: 2.5rem;
+    padding: 1.4em;
+}
+.container__2{
+ 
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    padding: 0 2em;
+}
+.box{
+    background-color: #fff;
+    padding: .9em;
+    border-radius: 3%;
+   
+}
+.price{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #fa5f55;
+}
+.box p{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1.2em;
+    text-transform: uppercase;
+}
+.content{
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: .8rem;
+}
+.content i{
+    margin-left: .8em;
+    font-size: 1.3rem;
+}
+.fa-check{
+    color: green;
+}
+.fa-times{
+    color: red;
+}
+.box .btn{
+    margin-top: 2em;
+    border-radius: 40px;
+    padding: 1em 2em;
+}
+.box__2{
+    margin-top: -15px;
+    box-shadow: 0px 0px 20px #fa5f55;
+    position: relative;
+}
+.popular{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #fa5f55;
+    color: white;
+    padding: 0.8em;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 10px;
+}
+.popular__1{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #97fa55;
+    color: white;
+    padding: 0.8em;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 10px;
+}
+.box__1{
+    position: relative;
+    box-shadow: 0px 0px 20px  #97fa55;
+}
+.box__1 .btn{
+    background-color:  #97fa55;
+    color: white;
+}
+.box__2 .btn{
+    background-color:  #fa5f55;
+    color: white;
+}
+.box__3 .btn{
+    background-color:  #6055fa;
+    color: white;
+}
+.box__3{
+    position: relative;
+    box-shadow: 0px 0px 20px  #6055fa;
+}
+.popular__3{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color:#6055fa;
+    color: white;
+    padding: 0.8em;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 10px;
+}
+
+
+@media screen and (max-width: 700px){
+    .container__2{
+ 
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 80px;
+        padding: 0 2em;
+    }
+}
